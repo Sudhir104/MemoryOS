@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>MemoryOS — your private local memory</title>
+<style>
+  :root { --bg:#0f1115; --card:#171a21; --accent:#7c9cff; --text:#e6e8ee; --muted:#8b93a7; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, Segoe UI, Roboto, sans-serif; background:var(--bg); color:var(--text); }
+  header { padding: 32px 24px 12px; text-align:center; }
+  header h1 { margin:0; font-size: 28px; }
+  header p { color: var(--muted); margin-top:6px; }
+  .badge { display:inline-block; margin-top:10px; padding:4px 10px; border-radius:999px; background:#1d2a1f; color:#7fd396; font-size:12px; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px; }
+  .search-box { display:flex; gap:8px; }
+  input[type=text] { flex:1; padding:14px 16px; border-radius:10px; border:1px solid #2a2f3a; background:var(--card); color:var(--text); font-size:16px; }
+  button { padding:14px 20px; border-radius:10px; border:none; background:var(--accent); color:#0f1115; font-weight:600; cursor:pointer; }
+  button:hover { opacity:0.9; }
+  .result { background:var(--card); border:1px solid #2a2f3a; border-radius:10px; padding:14px 16px; margin-top:12px; }
+  .result .file { font-weight:600; }
+  .result .meta { color:var(--muted); font-size:12px; margin:4px 0 8px; }
+  .result .snippet { color:#c7cbdb; font-size:14px; line-height:1.4; }
+  .section-title { margin-top:32px; font-size:14px; text-transform:uppercase; letter-spacing:0.06em; color:var(--muted); }
+  .empty { color:var(--muted); text-align:center; margin-top:40px; font-size:14px; }
+  .index-row { display:flex; gap:8px; margin-top:24px; }
+  .index-row input { flex:1; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🧠 MemoryOS</h1>
+  <p>Your laptop remembers your digital life — privately, on-device.</p>
+  <span class="badge">Runs locally · no cloud upload</span>
+</header>
+
+<main>
+  <div class="search-box">
+    <input id="query" type="text" placeholder="e.g. Where did I see TCP congestion control?" />
+    <button onclick="runSearch()">Search</button>
+  </div>
+  <div id="results"></div>
+
+  <div class="section-title">Index a folder</div>
+  <div class="index-row">
+    <input id="dirPath" type="text" placeholder="/path/to/notes-and-pdfs" />
+    <button onclick="runIndex()">Index</button>
+  </div>
+  <div id="indexStatus" class="empty"></div>
+
+  <div class="section-title">Recent activity</div>
+  <div id="timeline"></div>
+</main>
+
+<script>
+const API = "http://localhost:8000";
+
+async function runSearch() {
+  const query = document.getElementById("query").value.trim();
+  const resultsEl = document.getElementById("results");
+  if (!query) return;
+  resultsEl.innerHTML = "<div class='empty'>Searching…</div>";
+  try {
+    const res = await fetch(`${API}/search`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query, top_k: 5 }),
+    });
+    const data = await res.json();
+    if (!data.results.length) {
+      resultsEl.innerHTML = "<div class='empty'>No matches yet — index a folder first.</div>";
+      return;
+    }
+    resultsEl.innerHTML = data.results.map(r => `
+      <div class="result">
+        <div class="file">${r.file_name}</div>
+        <div class="meta">score ${r.score.toFixed(3)} · modified ${new Date(r.modified).toLocaleDateString()}</div>
+        <div class="snippet">${r.snippet}…</div>
+      </div>
+    `).join("");
+  } catch (e) {
+    resultsEl.innerHTML = `<div class='empty'>Backend not reachable. Is it running on ${API}?</div>`;
+  }
+}
+
+async function runIndex() {
+  const directory = document.getElementById("dirPath").value.trim();
+  const statusEl = document.getElementById("indexStatus");
+  if (!directory) return;
+  statusEl.textContent = "Indexing…";
+  try {
+    const res = await fetch(`${API}/index`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ directory }),
+    });
+    const data = await res.json();
+    statusEl.textContent = `Indexed ${data.files_indexed} files, ${data.chunks_indexed} chunks in ${data.seconds}s`;
+    loadTimeline();
+  } catch (e) {
+    statusEl.textContent = "Backend not reachable.";
+  }
+}
+
+async function loadTimeline() {
+  const el = document.getElementById("timeline");
+  try {
+    const res = await fetch(`${API}/timeline`);
+    const data = await res.json();
+    if (!data.files.length) {
+      el.innerHTML = "<div class='empty'>Nothing indexed yet.</div>";
+      return;
+    }
+    el.innerHTML = data.files.slice(0, 10).map(f => `
+      <div class="result">
+        <div class="file">${f.file_name}</div>
+        <div class="meta">${new Date(f.modified).toLocaleString()} · ${f.chunks} chunks</div>
+      </div>
+    `).join("");
+  } catch (e) {
+    el.innerHTML = "<div class='empty'>Backend not reachable.</div>";
+  }
+}
+
+loadTimeline();
+</script>
+</body>
+</html>

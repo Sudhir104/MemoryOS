@@ -1,0 +1,1045 @@
+[
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 0,
+    "snippet": "Prompt Writing & Response Evaluation Training Instruction Following Truthfulness Completeness Writing Style Helpfulness A I T R A I N I N G S E R I E S A G E N D A What We'll Cover Today 01 What is a Large Langauge Model? Large Language Models explained simply 02 Prompts & Responses Anatomy of a gre",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 1,
+    "snippet": "istant It has processed billions of documents, books, websites, and conversations by learning language patterns, facts, reasoning, and style. When you ask it something, it predicts the most helpful, coherent response based on that training. Trained on Massive Data Books, websites, code, conversation",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 2,
+    "snippet": " › 02 Cleaning & Prep Remove noise, duplicates, harmful content. Tokenize. › 03 Pre-Training Self-supervised on billions of tokens. Learns grammar, reasoning. › 04 Fine-Tuning Specialized datasets for coding, support, or domain tasks. 05 RLHF & Alignment Human reviewers shape helpfulness, safety, an",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 3,
+    "snippet": " L M L A N D S C A P E Popular LLMs ChatGPT by OpenAI Understanding context, reasoning through language, and generating human-like responses. Claude by Anthropic Focuses on safety, long-context reasoning, and nuanced, careful conversation Gemini by Google Integrated with Google Search, Docs, and exc",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 4,
+    "snippet": "es the LLM to generate a response. A P R O M P T C A N C O N T A I N : Persona \"You are a helpful customer support agent...\" Instruction \"Summarize the following email in 3 bullet points.\" Background \"The user is a beginner with no coding experience.\" Constraints \"Reply in under 100 words. Use simpl",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 5,
+    "snippet": "n bullet points, for a first-time owner.\" S T R E N G T H S : ✓ Role defined (vet perspective) ✓ Clear task (top 3 breeds) ✓ Context given (small apartments) ✓ Format specified (bullet points) P R O M P T S & R E S P O N S E S What is a Response? A response is the LLM's output. It is the text genera",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 6,
+    "snippet": "iate to the request 4 Closing / Action Offers a summary, next steps, or caveats where genuinely useful 03 Quality Dimensions How to evaluate a response systematically Q U A L I T Y D I M E N S I O N S The 5 Evaluation Dimensions 1. Instruction Following Does the response do exactly what was asked : ",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 7,
+    "snippet": "rovide genuine value? D I M E N S I O N 1 O F 5 Instruction Following Did the response follow every instruction in the prompt : Format, length, tone, task? 💬 Prompt: \"List exactly 3 benefits of exercise. Use numbered list. Keep each under 10 words.\" ✅ Follows Instructions 1. Improves cardiovascular ",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 8,
+    "snippet": "ist · Too long D I M E N S I O N 2 O F 5 Truthfulness Is every factual claim accurate? Does the model admit uncertainty instead of inventing information? ⚠ What is Hallucination? LLMs can confidently state false information — they invent facts, fake citations, wrong dates, and nonexistent people. Al",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 9,
+    "snippet": "1905. He received the Nobel Prize in Physics in 1921, for the photoelectric effect, not relativity.\" D I M E N S I O N 3 O F 5 Completeness Does the response cover all parts of the question? Are there gaps, missing points, or truncated answers? 💬 Prompt: \"Explain the water cycle including evaporatio",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 10,
+    "snippet": "Evaporation: Water heats up and turns to vapor. Condensation: Vapor cools and forms clouds. Precipitation: Water falls as rain, snow, or hail. Runoff: Water flows into rivers, lakes, and aquifers. D I M E N S I O N 4 O F 5 Writing Style Is the tone appropriate? Is the response clear, well-organized,",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 11,
+    "snippet": "d Writing Style \"Imagine your body has tiny soldiers. A vaccine shows them a fake bad guy so they can practice fighting. Then if the real bad guy shows up, your body knows exactly what to do!\" Simple analogy, friendly tone, age-appropriate Aspect ✅ Good Style ❌ Poor Style Clarity Short sentences, si",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 12,
+    "snippet": "n code isn't running. What should I do?\" · User's real need: Practical debugging help, not generic advice. ❌ Technically Correct but Unhelpful \"Python code may fail for many reasons. You should check your code and try to fix any errors you find. Debugging is an important skill.\" User still has no ac",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 13,
+    "snippet": " A T I N G S Y S T E M The Rating System Explained 5 D I M E N S I O N S · R A T E D 1 – 3 3 No Issues Fully meets criteria. Nothing to fix. 2 Minor Issues Small gaps or imperfections :Core task done. 1 Major Issues Significant failures: Core requirement missed. O V E R A L L Q U A L I T Y · R A T E",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 14,
+    "snippet": "ould come soon, fingers crossed! Cheers, Team\" Dimension Score Issue Level Reason Instruction Following 1 Major Prompt said formal — response is casual slang Truthfulness 3 None No false claims made Completeness 1 Major Missing: reason, timeline, proper apology tone Writing Style 1 Major 'lol', 'fin",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 15,
+    "snippet": "s Response B 1 Read Both Responses Fully Don't judge on first impression. Read A and B completely before assigning any score. 2 Score Each Dimension Independently Rate Instruction Following, Truthfulness, Completeness, Style, and Helpfulness for both. 3 Identify Strengths & Weaknesses Note what each",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 16,
+    "snippet": "Prompt: \"Explain the difference between RAM and storage to a non-technical user. Keep it simple and use an analogy.\" Response A \"RAM stands for Random Access Memory used for temporary data during processing cycles. Storage refers to non-volatile memory like HDDs or SSDs...\" Response B \"Think of your",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 17,
+    "snippet": "ect 3 Factually correct and accurate Completeness 2 Covers concepts but misses why it matters to user 3 Covers both concepts with clear practical meaning Writing Style 1 Jargon: 'non-volatile', 'HDD', 'cycles' — too technical 3 Simple everyday language throughout Helpfulness 1 User still confused — ",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 18,
+    "snippet": "oring the Prompt Always re-read the original prompt before rating. Did the response actually answer what was asked? Confusing Opinion with Quality Rate on criteria, not personal preference. You might disagree but still rate it high if it's accurate. Skipping Truthfulness Check Never assume facts are",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 19,
+    "snippet": " E N C E Evaluator's Quick Reference Cheat Sheet 5 D I M E N S I O N S — E A C H R A T E D 1 , 2 , O R 3 Instruction Following Did it do exactly what was asked? Truthfulness Are all facts accurate? Completeness Is anything missing? Writing Style Appropriate tone and format? Helpfulness Does it actua",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 20,
+    "snippet": "E R T S C A L E The Likert Scale — Overall Comparison After rating both responses individually, give a single Likert score (1–7) comparing A against B overall. 1 A is much better than B B fails significantly : A is clearly superior 2 A is better than B A has a clear advantage across multiple dimensi",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 21,
+    "snippet": "nificantly : B is clearly superior Scores 1–3: A is better | Score 4: Equal | Scores 5–7: B is better 07 Justification Writing The most important step — explaining your rating with precision J U S T I F I C A T I O N W R I T I N G What is a Justification? A justification is a written explanation of ",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 22,
+    "snippet": " the exact dimension(s) where the winner outperforms. Be specific: \"B's writing style is more appropriate\" not just \"B is clearer.\" 3. Evidence from the Text Quote or directly reference specific lines from the response. Point to exactly what makes it better or worse. 4. Why the Other Response Failed",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 23,
+    "snippet": " an analogy and explain to a non-technical user, while A did not. 📄 Evidence: B uses a kitchen analogy that makes the concept immediately accessible. A, by contrast, uses terms like 'non-volatile memory' which are technical jargon the average user would not understand. ❌ A's failure: A ignores the c",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 24,
+    "snippet": "📄 Evidence: A lists three clear bullet points with concise advice; B also provides three tips in a slightly more conversational tone. Both cover the same core points. ❌ Neither fails significantly: A's formatting is slightly more structured, while B's tone is warmer, but neither advantage is large e",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 25,
+    "snippet": "mation. ✔ Fix: Specify the dimension and point to a specific line or phrase as evidence. ❌ Conclusion Buried at the End \"Both mention RAM. A uses technical terms, B uses an analogy. A is detailed but confusing. B is simpler. So B wins.\" ⚠ The verdict is buried at the end. Readers must wade through c",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 26,
+    "snippet": "e score says A is slightly better. Contradictory. ✔ Fix: Re-read your justification before submitting. Your evidence must match your score. ❌ Personal Opinion, Not Criteria-Based \"I preferred A because I like detailed technical answers. B felt too dumbed down for my taste.\" ⚠ This is personal prefer",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 27,
+    "snippet": "bmission-ready. 1- Does it open with a clear verdict? First sentence must state which response is better (or that they are equal). 2- Is the reason dimension-specific? Reference at least one named dimension (instruction following, style, completeness, etc.). 3- Is there direct evidence from the resp",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "file_name": "1a557b9f48ce40a3967af4bd9d12c3aa.pdf",
+    "chunk_index": 28,
+    "snippet": " minor ones. 6- Is it free from personal preference language? Avoid 'I prefer', 'I liked', 'in my opinion' : Base judgment on the prompt's requirements. You're Ready to Evaluate! K e y T a k e a w a y s ✔ A strong prompt gets a strong response : Specificity is everything ✔ Always evaluate on all 5 d",
+    "modified": "2026-09-08T15:31:53.111343"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 0,
+    "snippet": "Generalist & Evals Domain Complete Training Guide EVALS Projects · Generalist Projects · Multimodal Evaluation Text · Images · Audio · Video · Structured Analysis O V E R V I E W Complete Training Roadmap 8 modules covering everything you need to excel in Non-STEM evaluation work 01 Non-STEM Overvie",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 1,
+    "snippet": "hecklist 01 Non-STEM Overview Understanding the domain N O N - S T E M D O M A I N What is the Non-STEM Domain? Non-STEM work involves structured analysis and comparison across MULTIPLE MODALITIES : Text, Images, Audio, and Video. Text Responses, articles, prompts Images Generated images, edits Audi",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 2,
+    "snippet": "ntent: prompts, descriptions, annotations. Everything must be grounded in observable evidence. No guessing allowed. ✓ Create prompts ✓ Write descriptions ✓ Annotate precisely ✓ Follow all constraints You are a quality analyst: Comparing outputs, writing prompts, creating descriptions C O M P A R I S",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 3,
+    "snippet": "cription, or label Key Skill Objective comparison Precision & grounding Rating Type A / B / Tie / Both Good / Both Bad Pass / Fail quality standards Evidence Point to differences between outputs Describe only what you observe 02 Core Evaluator Mindset The foundation of quality work C O R E M I N D S",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 4,
+    "snippet": "sion Discipline Evaluate each dimension independently. A great image never excuses poor instruction following. Master these 4 principles and you will excel in BOTH EVALS and Generalist work 03 Evaluation Dimensions Deep dive D I M E N S I O N S Universal Evaluation Dimensions These dimensions apply ",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 5,
+    "snippet": " Helpfulness When: Text EVALS tasks Persona / Identity When: When reference provided D I M E N S I O N 1 Instruction Following Did the output follow EVERY requirement? Format, constraints, tone, elements : All must be verified. ✓ What to Check: • All required elements present? • Correct format (bull",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 6,
+    "snippet": "the background.\" ✅ GOOD All 4 elements present: • Red umbrella ✓ • Wet pavement ✓ • Reflections ✓ • Rainy street background ✓ ❌ BAD Missing required elements: • Reflections absent ✗ OR • Blue umbrella instead of red ✗ 💡 Tip: Even ONE missing element is an instruction failure — regardless of how good",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 7,
+    "snippet": "ions AUDIO • Clear speech • Natural pacing • Proper intonation • No awkward pauses • Good pronunciation VIDEO • Smooth transitions • Visual consistency • Stable camera • Good lighting • Scene coherence D I M E N S I O N 3 Factuality / Accuracy Are the facts correct? Check names, dates, statistics — ",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 8,
+    "snippet": "es • Factual errors are MAJOR ISSUES — they can disqualify an otherwise great response. • A beautiful, well-formatted response with wrong facts is still a BAD response. • Factuality typically outweighs style, format, and minor quality issues. • When in doubt about a fact, mark it as an issue — never",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 9,
+    "snippet": "ible physics AUDIO Artifacts ✗ Unnatural pauses ✗ Robotic cadence ✗ Monotone delivery ✗ Weird emphasis VIDEO Artifacts ✗ Morphing objects ✗ Unnatural motion ✗ Physics violations ✗ Glitchy transitions 04 Rating Systems EVALS vs Generalist rating explained R A T I N G S Y S T E M S EVALS Rating System",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 10,
+    "snippet": "y equal — use sparingly! ⚠ Use \"Tie\" only when outputs are truly equal : Not when you're unsure. D E C I S I O N L O G I C When to Use \"Tie\" — Decision Logic Apply a clear priority order before reaching for Tie ✅ USE Tie When: • Both outputs are equally strong • Differences are negligible or purely ",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 11,
+    "snippet": "ighest 2 Factual Accuracy Very High 3 Major Technical Issues High 4 Quality & Completeness Medium 5 Style & Minor Quality Lower 05 Major vs Minor Issues Understanding severity levels S E V E R I T Y Major vs Minor Issues — Know the Difference CRITICAL: One major issue typically outweighs multiple mi",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 12,
+    "snippet": "e MINOR ISSUES ~ Small formatting inconsistency ~ Slightly awkward phrasing (but still clear) ~ Minor visual imperfection (small blur spot) ~ Brief unnatural pause in audio ~ Small grammar error that doesn't impede meaning ~ Slightly robotic tone (but content is correct) ~ Minor color imbalance ~ On",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 13,
+    "snippet": "t enhances muscular strength and bone density through consistent physical activity patterns.\" Issues: ✗ No bullet points used ✗ Sentences exceed 15 words ✗ Too technical (not simple language) ✅ Response B — PASSES • Keeps your heart and body healthy • Improves your mood and reduces stress • Helps yo",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 14,
+    "snippet": "f a man’s face, lit softly from the side by warm ambient lighting—perhaps from a nearby lamp or candle—casting gentle shadows that accentuate the contours of his cheekbones and jaw. His lips, slightly parted at first, slowly curl upward into a sly, knowing grin, the kind that suggests a private amus",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 15,
+    "snippet": "café or intimate lounge setting. As he grins becomes a quiet chuckle escapes him—low, rich, and tinged with delight—and he moves under his breath, ‘You wouldn’t believe what I just thought of,’ as if inviting the viewer into the joke. The camera lingers just a beat longer on his smiling mouth, captu",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 16,
+    "snippet": "rquoise ocean water, hammocks, and surfboards covered in fresh snow, creating a surreal tropical-winter contrast. One panda wearing a red “BBQ Boss” apron grills tofu and corn skewers over a steaming barbecue, while another panda in a knit beanie adjusts the grill. A third panda laughs while holding",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 17,
+    "snippet": "oft beach ambience mixed with winter storm sounds, stylized animated visuals, highly detailed and humorous composition. Text-to-Image H2H Justification: Image B is better than Image A because it more clearly represents the impossible window frame where the top and bottom bars appear perpendicular in",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 18,
+    "snippet": "s aligned with the prompt. Prompt: “An impossible window frame. The top and bottom bars are perpendicular to each other in 3D space, yet they are connected by the side bars.” Video Artistic Style Prompt: Create a seamless 3D loop video with the same art style as in the reference video of an abstract",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 19,
+    "snippet": "-focus brown background. The motion is fluid, mechanical, and hypnotic, focusing on the topology of the shape rather than any organic resemblance. Make the video duration 0:13 seconds. The background audio is a minimalist ambient electronic track featuring a rhythmic, pulsating synth bass and a soft",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 20,
+    "snippet": "paper or canvas. The art style feels lo-fi and playful, using sketchy, organic line work that slightly shifts from frame to frame, creating a subtle \"boiling\" effect that gives the drawing a warm, handmade charm. The color palette is very minimal, limited to soft blue, clean white, and muted beige, ",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 21,
+    "snippet": "A G E E X A M P L E IMAGE Example: Good vs Bad Prompt: \"A realistic photo of a woman holding a coffee cup in a café, natural lighting, clear details\" ❌ Image A — AI Artifacts Present Observed Issues: ✗ Woman has 6 fingers on one hand (AI artifact) ✗ Coffee cup is warped / distorted ✗ Background café",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 22,
+    "snippet": "B wins (sharper, clearer) | AI-likeliness: B wins decisively — extra fingers is a MAJOR ISSUE that disqualifies A. G E N E R A L I S T E X A M P L E GENERALIST Example: Description Writing Task: \"Describe this video from 0:00 to 0:10. Include all visible elements and timestamp key moments.\" ❌ BAD De",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 23,
+    "snippet": "person in a dark jacket appears in the lower left. At 0:07, the camera pans right, revealing rocky coastline.\" Strengths: ✓ Timestamps included for each event ✓ Observable facts only — no guessing ✓ Specific: colors, positions, objects named Generalist Principles: Include timestamps when required · ",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 24,
+    "snippet": "rify EVERY item. No exceptions. Dimensions All dimensions evaluated independently · Ratings match your justification · No dimension overlooked Evidence Specific examples cited · Claims supported by observable facts · No assumptions or guesses Justification Decision stated clearly upfront · Dimension",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 25,
+    "snippet": "w down, re-read, and verify. Every. Single. Time. 1 Re-read the Prompt Make sure you understand what was ACTUALLY asked Highlight key requirements 2 Count Required Elements Prompt says 3 bullets? Count them. Says 5 items? Verify all 5. Missing one = major issue 3 Check Facts Carefully Don't assume n",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 26,
+    "snippet": "step to avoiding them ✗ Personal Preference Bias Rating based on what YOU like instead of criteria ✓ Judge against dimensions, not personal taste ✗ Overweighting Formatting Choosing a well-formatted wrong answer over a plain correct one ✓ Factuality always outweighs style ✗ Ignoring Small Violations",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 27,
+    "snippet": "asks Being strict on task 1, lenient on task 50 ✓ Apply the same standards every time ✗ Rushing Quality Checks Skipping verification before submit ✓ Always run through the checklist ✗ Assuming Without Verifying Guessing facts are correct without checking ✓ When in doubt, verify or flag it O U T C O ",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 28,
+    "snippet": "inguish between major and minor issues — and weight them appropriately ✓ Write structured, audit-ready justifications following the 5-part structure ✓ Execute Generalist tasks with precision and complete groundedness ✓ Create detailed descriptions with timestamps and observable facts only ✓ Identify",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "file_name": "5bcebd1c8cdf415cac349ecaf0248404.pdf",
+    "chunk_index": 29,
+    "snippet": "imension discipline: Evaluate independently ✓ Attention to detail separates good from great ✓ Quality checks before every submission",
+    "modified": "2026-09-08T15:37:07.179357"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 0,
+    "snippet": "Evals Training Bridging the Gap to AGI Instruction Following Visual Quality Less AI-Generated Overall Choice W O R K F L O W O V E R V I E W The 4 Tools You'll Use SOP The Rulebook Always open first and kept open throughout. Defines every rule and edge case. Notepad Chain-of-Thought Your live reason",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 1,
+    "snippet": "at Are Evals & The Foundation: Your work shapes how AI learns. Why They Matter S E C T I O N 1 What is an \"Eval\"? A Structured Judgment An eval compares AI outputs against a prompt: Not fixing the AI, but showing it what \"good\" looks like. You Are the Teacher Think of yourself as grading homework : ",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 2,
+    "snippet": "at humans prefer: Humans teach them through evals. 02 Your evals shape model behavior for millions of future users across all interactions. 03 Good evals → model outputs that are helpful, safe, and accurate in the real world. 04 Bad evals → outputs that look fluent but fail users when it actually ma",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 3,
+    "snippet": "sker rates similar tasks differently across sessions or days, destroying reproducibility. Unjustified A choice was made but the reasoning is blank, generic, or vague : \"looks better\" tells researchers nothing. Rule-Breaking SOP criteria were ignored, misread, or the tasker guessed on an ambiguous ca",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 4,
+    "snippet": "oisy evals cancel out good ones — 10 careful taskers can be undone by 1 careless one. Downstream consequences: Worse products, unsafe outputs, and missed model capabilities. One careless eval can corrupt thousands of training examples through the reward pipeline. Y O U R N O R T H S T A R Read / Vie",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 5,
+    "snippet": "uality > Speed. Always. SECTION 3 The 4 Evaluation Rate each independently. Don't let one bleed into another. Dimensions Overview of the 4 Dimensions 01 Instruction Following Did the output do exactly what the prompt asked? Check every constraint, count, color, and style. 02 Visual Quality Is the ou",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 6,
+    "snippet": "ntly. Don't let one dimension contaminate your judgment of another. Instruction Following The #1 question: Did the output do what the prompt asked? Check every noun, verb, count, color, style, and constraint in the prompt and read it twice. A beautiful image that ignores the prompt fails this dimens",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 7,
+    "snippet": "ing: Response A is correct Why the Tasker Chose Response A: \"Response A provides the lamp on the right side of the bench which has a curved arm with a single downward- facing bulb, whereas Response B does not provide a curved arm lamp.\" What makes this judgment correct: ✓ Identifies a specific promp",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 8,
+    "snippet": "P L E Instruction Following: Wrong Judgement ❌ Instruction Following: Response B chosen (wrong) ❌ Wrong reasoning given: \"Response B shows bright, natural-looking colors and fresh fruit, matching the prompt well. The fruit is neatly placed in a container on a wooden table.\" Why this fails: Judges ae",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 9,
+    "snippet": "aps prompt nouns to output elements. ⚠ Never judge instruction following by appearance or aesthetics. Count, verify, check every constraint. S E C T I O N 3 · D I M E N S I O N 2 O F 4 Visual Quality Judges the craft of the output, independent of whether it followed the prompt. Anatomy & Structure E",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 10,
+    "snippet": " visual hierarchy and balance. ⚠ An image can follow the prompt perfectly but still have low visual quality; these are separate judgments. D I M E N S I O N 2 · G O O D E X A M P L E Visual Quality — Correct Judgment ✅ Visual Quality: Response A is correct Why the Tasker Chose Response A: \"Response ",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 11,
+    "snippet": "licitly names what B lacks (softer, less defined) to justify the comparison Key pattern: Name specific visual attributes (sharpness, color, clarity) and compare them between both responses. D I M E N S I O N 2 · B A D E X A M P L E Visual Quality — Wrong Judgment ❌ Visual Quality: Response B chosen ",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 12,
+    "snippet": " answer was A: \"A's warm lighting and richer details create a more appealing and cozy scene. Response B appears flatter and less visually engaging.\" Why this works: Describes specific craft qualities — warmth, richness, detail level — and explains why A's profile is stronger. ⚠ 'Smooth', 'clean', 'p",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 13,
+    "snippet": "ny Faces Eyes slightly misaligned, expressions hollow or generic, facial geometry subtly \"off\". Over-saturated Colors Hyper-vivid, impossible color saturation that real cameras or real light never produce. Generic Compositions Overly centered, too perfectly symmetrical, no authentic \"moment\" or cand",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 14,
+    "snippet": "erfections, slightly uneven lighting, realistic skin texture, and a more candid composition that matches how real photos typically look.\" What makes this judgment strong: ✓ Cites specific realism cues: natural imperfections, uneven lighting, realistic skin texture ✓ Anchors the judgment in \"how real",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 15,
+    "snippet": "ong Judgment ❌ Less AI-Generated: Response A chosen (wrong — correct answer was B) ❌ Wrong reasoning given: \"Response A shows more natural depth and softer, varied shadows, making it feel more like a real photo. The way light interacts with the marble surface adds realism.\" Why this fails: Focuses o",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 16,
+    "snippet": "stic.\" Why this works: Identifies A's AI-tell signals specifically: glossy = overly processed, unnatural reflections = physically impossible light behavior. ⚠ Look at the whole image for AI-tell patterns — don't anchor on one element. Glossy, perfect, and symmetric usually means AI. D I M E N S I O ",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 17,
+    "snippet": "yellow bananas in a wicker basket. It also has smoother lighting and more even exposure.\" (Verdict is clear, evidence is traceable, dimensions are cross-referenced) D I M E N S I O N 4 · B A D E X A M P L E Overall Choice — Wrong Judgment ❌ All 4 dimensions rated incorrectly — Overall Choice: Respon",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 18,
+    "snippet": "onse B → A follows instructions and has better visual quality — B should not win. ⚠ Every wrong dimension score compounds the error. Incorrect ratings across all 4 produce a completely useless training signal. Dimension 4: Overall Choice (Cumulative) Your Final Holistic Preference Not an average of ",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 19,
+    "snippet": "ost Important Signal This is the single score that directly shapes model preference learning. Treat it with the most care. How the 4 Dimensions Work Together The 4 dimensions give researchers a multi-angle view of quality — not just what won, but why. Lets researchers see why A beat B, not just that",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 20,
+    "snippet": " answer. SECTION 4 The Tasker Workflow: SOP · Notepad · Task Platform · Stagelist 4 Tools S E C T I O N 4 · W O R K F L O W The 4 Tools — Deep Dive 01 SOP Standard Operating Procedure Always open first. Always open during. The rulebook that defines what counts as instruction-following, what's a visu",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 21,
+    "snippet": " inspect. Rate all 4 dimensions independently. Don't click through. 04 Stagelist Final Results & Audit Trail Final destination. Captures ratings + reasoning + metadata. Always confirm your submission appears here. Quality reviewers check Stagelist. Not there = didn't happen. S E C T I O N 4 · T O O ",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 22,
+    "snippet": "\" If the SOP is ambiguous about a case, flag it. Don't improvise an interpretation please flag it. Re-read the SOP before each session. Rules get updated. An old mental model is a liability. S E C T I O N 4 · T O O L 2 Tool 2: The Notepad (Chain of Thought) Write your reasoning as you evaluate, not ",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 23,
+    "snippet": ". Why → Specific evidence for each dimension choice The reasoning is the gold — researchers use it to understand model failures, not just which response won. Don't skip the Notepad because \"it's obvious\" by the reasoning still matters even when the choice is clear. Keep it clear, specific, and in pl",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 24,
+    "snippet": "click through — the platform records every timing signal. Suspiciously fast = low quality flag. If something looks broken, corrupted, or off — use the flag/report feature. Don't force a rating. S E C T I O N 4 · T O O L 4 Tool 4: The Stagelist Final destination for every completed evaluation. Captur",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 25,
+    "snippet": "tasker accuracy. S E C T I O N 4 · W O R K F L O W The Full Workflow in One Picture 1 Open SOP Rulebook 2 Read Prompt Task Platform 3 Think & Write Notepad · CoT 4 Rate 4 Dimensions Task Platform 5 Justify Task Platform 6 Discuss if Unsure QR / Flag 7 Submit Task Platform 8 Log to Stagelist Final Re",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 26,
+    "snippet": "each dimension independently, in isolation. ✓ Flag tasks when genuinely unsure ❌ DON'T’s ✕ Guess. Rush. Rate by \"vibes\" or first impression. ✕ Let one dimension contaminate your judgment of another. ✕ Skip the Notepad because \"the answer is obvious.\" ✕ Assume the AI is always right or always wrong. ",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\d43946c2f86244e28e927b65248c9a2f.pdf",
+    "file_name": "d43946c2f86244e28e927b65248c9a2f.pdf",
+    "chunk_index": 27,
+    "snippet": "ecomes usable signal. ✔ Your North Star: Read fully. Think honestly. Justify clearly. Questions? Discuss with your Quality Reviewer.",
+    "modified": "2026-09-08T15:37:02.262994"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "file_name": "e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "chunk_index": 0,
+    "snippet": "GENERALIST TRAINING GUIDE Purpose: This guide establishes standardized principles, competencies, and quality benchmarks required to perform successfully across all Generalist projects involving prompt writing, description writing, annotation, labeling, transformation tasks, and multimodal analysis. ",
+    "modified": "2026-09-08T15:37:11.231457"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "file_name": "e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "chunk_index": 1,
+    "snippet": "isual descriptions ● Color identification and timestamp referencing ● UI element labeling and functionality explanation ● Comparative evaluation ● Annotation and structured reasoning Generalist work demands precision, structured thinking, and strict instruction adherence. 2. Core Competencies Requir",
+    "modified": "2026-09-08T15:37:11.231457"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "file_name": "e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "chunk_index": 2,
+    "snippet": "very task must strictly follow: ● All constraints ● Formatting requirements ● Inclusion rules (timestamps, hex codes, element references) ● Submission guidelines Missing a required component constitutes incomplete instruction following. 2.3 Structured Writing All outputs must demonstrate: ● Logical ",
+    "modified": "2026-09-08T15:37:11.231457"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "file_name": "e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "chunk_index": 3,
+    "snippet": "ersal Evaluation Dimensions All Generalist tasks should be assessed against the following core dimensions: 3.1 Instruction Following ● Are all requirements fulfilled? ● Are constraints respected? 3.2 Completeness ● Are all required elements referenced? ● Are timestamps, objects, labels, or transform",
+    "modified": "2026-09-08T15:37:11.231457"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "file_name": "e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "chunk_index": 4,
+    "snippet": "e transformations logically consistent? 3.6 Consistency ● Is terminology used consistently? ● Is lighting or structural integrity preserved (when applicable)? 3.7 Clarity & Structure ● Is the writing organized? ● Is the reasoning easy to follow? 3.8 Realism & Coherence ● Does the transformation appe",
+    "modified": "2026-09-08T15:37:11.231457"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "file_name": "e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "chunk_index": 5,
+    "snippet": "nstructions (if applicable) Prompts must be detailed, precise, and structured. 5. Guidelines for Description Writing A strong description must: ● Reference all required elements ● Include timestamps when required ● Mention selected color codes explicitly ● Explain spatial placement ● Describe motion",
+    "modified": "2026-09-08T15:37:11.231457"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "file_name": "e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "chunk_index": 6,
+    "snippet": "lighting deeper purple shadows near the water’s edge. 6. UI Labeling Standards When labeling interactive elements: ● Describe what happens when clicked ● Use action-based language ● Avoid describing appearance alone ● Focus on functionality Examples: ● “Opens settings panel” ● “Navigates to user pro",
+    "modified": "2026-09-08T15:37:11.231457"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "file_name": "e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "chunk_index": 7,
+    "snippet": "n dimensions. 7.3 Evidence Provide visible, concrete examples. 7.4 Comparative Analysis Explain why one output is superior. 7.5 Logical Conclusion Close with a reasoned final statement. Gold-Standard Justification Example (Concise) Response A demonstrates stronger instruction following and realism. ",
+    "modified": "2026-09-08T15:37:11.231457"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "file_name": "e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "chunk_index": 8,
+    "snippet": " are satisfied ● All required elements are referenced ● No assumptions are made ● Writing is structured and precise ● Evaluation reasoning is evidence-based ● Formatting requirements are met 9. Professional Standards & Work Ethic All Generalist contributors are expected to uphold the following value",
+    "modified": "2026-09-08T15:37:11.231457"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "file_name": "e175fc3282fd451492f0fdee9ec1cdc7.pdf",
+    "chunk_index": 9,
+    "snippet": "ormation prompts ● Produce detailed, timestamped visual descriptions ● Accurately label interactive UI elements ● Apply universal evaluation dimensions ● Write concise, evidence-backed justifications ● Adapt efficiently to new project types",
+    "modified": "2026-09-08T15:37:11.231457"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Akamai_CoverLetter.pdf",
+    "file_name": "Sudhir_Mathur_Akamai_CoverLetter.pdf",
+    "chunk_index": 0,
+    "snippet": "Sudhir Mathur Chandigarh, India | +91-8146489819 | sudhirmathur012@gmail.com | linkedin.com/in/sudhir-mathur-346b3b268 | github.com/Sudhir104 September 19, 2026 Hiring Team Akamai Technologies Subject: Application for Software Engineer – Delivery Experience T eam (Job ID 3863) Dear Hiring Manager, I",
+    "modified": "2026-09-19T16:16:09.283605"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Akamai_CoverLetter.pdf",
+    "file_name": "Sudhir_Mathur_Akamai_CoverLetter.pdf",
+    "chunk_index": 1,
+    "snippet": "ts, I’ve worked across the full stack: React on the front end, Node.js/Express REST APIs on the back end, and MongoDB/SQL for data. I built and deployed a production AI automation pipeline with a safe fallback so unreliable output never breaks the system, and when it went quiet in production one nig",
+    "modified": "2026-09-19T16:16:09.283605"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Akamai_CoverLetter.pdf",
+    "file_name": "Sudhir_Mathur_Akamai_CoverLetter.pdf",
+    "chunk_index": 2,
+    "snippet": "95% compatibility with expected behavior. That combination – shipping features, writing the tests that catch what breaks, and debugging production issues when they happen – is close to what this role asks for day to day. I have a strong foundation in Data Structures & Algorithms (250+ problems solve",
+    "modified": "2026-09-19T16:16:09.283605"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Akamai_SoftwareEngineer_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Akamai_SoftwareEngineer_Resume.pdf",
+    "chunk_index": 0,
+    "snippet": "Sudhir Mathur Chandigarh, India | +91-8146489819 | sudhirmathur012@gmail.com linkedin.com/in/sudhir-mathur-346b3b268 | github.com/Sudhir104 | sudhir-portfolio-two.vercel.app | leetcode.com/u/SudhirMathur108 Professional Summary Software Engineer – Recent Computer Science graduate (2026) with a stron",
+    "modified": "2026-09-19T16:13:13.183521"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Akamai_SoftwareEngineer_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Akamai_SoftwareEngineer_Resume.pdf",
+    "chunk_index": 1,
+    "snippet": "able working across the full development lifecycle: design, implementation, unit testing, code review, and resolving production issues. Self-driven, collaborative, and quick to work effectively with minimal supervision. Skills – Programming Languages: Java (basics), JavaScript (ES6+), C++, Python – ",
+    "modified": "2026-09-19T16:13:13.183521"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Akamai_SoftwareEngineer_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Akamai_SoftwareEngineer_Resume.pdf",
+    "chunk_index": 2,
+    "snippet": "itHub Actions), code review practices – Tools: Git, GitHub, Postman Project Experience AI Support & Lead Automation Agent 2025 n8n, Node.js, Express.js, Groq/LLaMA, MongoDB Atlas, React.js | Link: GitHub | Live Demo – Designed and developed a full-stack automation feature end-to-end: REST API, LLM i",
+    "modified": "2026-09-19T16:13:13.183521"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Akamai_SoftwareEngineer_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Akamai_SoftwareEngineer_Resume.pdf",
+    "chunk_index": 3,
+    "snippet": "e. REST API Test Automation Framework 2026 Python, Pytest, GitHub Actions CI | Link: GitHub – Developed a unit-testing suite covering 20+ positive, negative, and edge-case scenarios across 5 API endpoints to support QA and code quality. – Built reusable, parametrized test fixtures following clean co",
+    "modified": "2026-09-19T16:13:13.183521"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Akamai_SoftwareEngineer_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Akamai_SoftwareEngineer_Resume.pdf",
+    "chunk_index": 4,
+    "snippet": "evel design principles. – Achieved 95% compatibility with expected behavior across 100+ self-written test cases through systematic unit testing. – Debugged edge cases methodically, applying structured troubleshooting until output matched expected results. Education Bachelor of Engineering in Compute",
+    "modified": "2026-09-19T16:13:13.183521"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Akamai_SoftwareEngineer_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Akamai_SoftwareEngineer_Resume.pdf",
+    "chunk_index": 5,
+    "snippet": "eeks (approx. 67). – Unstop Campus Ambassador (2023-24): Organized university-level events and coordinated with participants, boosting engagement by 40%. – Certifications: Flipkart GRiD 6.0 Software Development Challenge, Aug 2024; Computer Organization and Architec- ture (Elite) - NPTEL, Oct 2023.",
+    "modified": "2026-09-19T16:13:13.183521"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "file_name": "Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "chunk_index": 0,
+    "snippet": "Sudhir Mathur Chandigarh, India | +91-8146489819 | sudhirmathur012@gmail.com linkedin.com/in/sudhir-mathur-346b3b268 | github.com/Sudhir104 | sudhir-portfolio-two.vercel.app | leetcode.com/u/SudhirMathur108 Professional Summary Forward Deployed Engineer - Intern – Recent Computer Science graduate (2",
+    "modified": "2026-09-16T08:52:07.815095"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "file_name": "Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "chunk_index": 1,
+    "snippet": "ng it to the actual cause. Comfortable in Python and JavaScript, fluent in SQL, and documents fixes clearly so issues do not recur – a structured thinker with clear written communication and strong analytical skills. Skills  Programming Languages: Python, JavaScript (ES6+), C++  APIs & Integration",
+    "modified": "2026-09-16T08:52:07.815095"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "file_name": "Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "chunk_index": 2,
+    "snippet": ", structured test-case design (positive/negative/edge-case), CI pipelines (GitHub Actions)  Soft Skills: Clear written and verbal English communication, structured thinker, self-directed problem-solving, documentation- first approach  Workflow Automation: n8n (conditional logic, webhook-driven wor",
+    "modified": "2026-09-16T08:52:07.815095"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "file_name": "Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "chunk_index": 3,
+    "snippet": "integration this workflow runs on, connecting a webhook trigger to an LLM classification service with a safe fallback so a bad response never blocks the queue.  When the system went quiet in production, traced the failure across API logs, the database layer, and network config – not the AI layer, m",
+    "modified": "2026-09-16T08:52:07.815095"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "file_name": "Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "chunk_index": 4,
+    "snippet": "elf rather than trusting a downstream report.  Traced a recurring inconsistency back to a silent failure in the extraction step and fixed the root cause, documenting it for reliable, repeatable runs. REST API Test Automation Framework 2026 Python, Pytest, GitHub Actions CI | Link: GitHub  Designed",
+    "modified": "2026-09-16T08:52:07.815095"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "file_name": "Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "chunk_index": 5,
+    "snippet": "sions on every change. Education Bachelor of Engineering in Computer Science & Engineering Aug 2022 - May 2026 Chandigarh University, Chandigarh, India | CGPA: 7.0/10.0 Senior Secondary (HBSE) May 2020 - March 2021 Saarthak GIMSS School, Chandigarh, India | Percentage: 92.4% Achievements & Leadershi",
+    "modified": "2026-09-16T08:52:07.815095"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "file_name": "Sudhir_Mathur_BlueMachinesAI_FDE_Resume.pdf",
+    "chunk_index": 6,
+    "snippet": "iversity-level events and coordinated with participants, boosting engagement by 40%.  Certifications: Flipkart GRiD 6.0 Software Development Challenge, Aug 2024; Computer Organization and Architec- ture (Elite) - NPTEL, Oct 2023.",
+    "modified": "2026-09-16T08:52:07.815095"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Business_Analyst.pdf",
+    "file_name": "Sudhir_Mathur_Business_Analyst.pdf",
+    "chunk_index": 0,
+    "snippet": "Sudhir Mathur Chandigarh, India | +91-8146489819 | sudhirmathur012@gmail.com linkedin.com/in/sudhir-mathur-346b3b268 | github.com/Sudhir104 | sudhir-portfolio-two.vercel.app | leetcode.com/u/SudhirMathur108 Professional Summary Business Analyst (SQL-driven analysis & actionable insights) – Recent Co",
+    "modified": "2026-09-19T07:32:07.918370"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Business_Analyst.pdf",
+    "file_name": "Sudhir_Mathur_Business_Analyst.pdf",
+    "chunk_index": 1,
+    "snippet": "decision-making, not just raw tables. Solo-designed a product that depended on translating complex, technical information into clear, actionable guidance for non-technical users – the same skill needed to bridge data and stakeholders. Comfortable with SQL, structured problem breakdown, and root-caus",
+    "modified": "2026-09-19T07:32:07.918370"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Business_Analyst.pdf",
+    "file_name": "Sudhir_Mathur_Business_Analyst.pdf",
+    "chunk_index": 2,
+    "snippet": "lem-Solving: Structured breakdown of ambiguous problems, translating technical findings into business- readable recommendations, cross-functional communication  Reporting & Visualization: Streamlit dashboards, Tableau, Grafana, Microsoft Excel (formulas)  Data Engineering: Python-based ETL scripti",
+    "modified": "2026-09-19T07:32:07.918370"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Business_Analyst.pdf",
+    "file_name": "Sudhir_Mathur_Business_Analyst.pdf",
+    "chunk_index": 3,
+    "snippet": "idation checks against source records specifically to catch data-quality issues and anomalies before they reached final reporting.  Debugged pipeline failures stage-by-stage, tracing each discrepancy back to its root cause in the source data rather than patching symptoms. Cloud Retail Data Pipeline",
+    "modified": "2026-09-19T07:32:07.918370"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Business_Analyst.pdf",
+    "file_name": "Sudhir_Mathur_Business_Analyst.pdf",
+    "chunk_index": 4,
+    "snippet": "rectness and catch regressions before they reached reported numbers. DataShield – DPDP Compliance-as-a-Service SaaS 2025 Node.js, Express, MongoDB, React/Vite, Anthropic API | Link: GitHub  Identified a real gap – Indian SMBs lacked an accessible way to understand DPDP Act compliance – and solo-des",
+    "modified": "2026-09-19T07:32:07.918370"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Business_Analyst.pdf",
+    "file_name": "Sudhir_Mathur_Business_Analyst.pdf",
+    "chunk_index": 5,
+    "snippet": "ogistics and large participant groups under real time pressure.  Boosted event engagement by 40% through improved coordination and structured outreach planning. Education Bachelor of Engineering in Computer Science & Engineering Aug 2022 – May 2026 Chandigarh University, Chandigarh, India | CGPA: 7",
+    "modified": "2026-09-19T07:32:07.918370"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Enzo_AIEngineerIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Enzo_AIEngineerIntern_Resume.pdf",
+    "chunk_index": 0,
+    "snippet": "Sudhir Mathur Chandigarh, India | +91-8146489819 | sudhirmathur012@gmail.com linkedin.com/in/sudhir-mathur-346b3b268 | github.com/Sudhir104 | sudhir-portfolio-two.vercel.app | leetcode.com/u/SudhirMathur108 Professional Summary AI Engineer Intern – Recent Computer Science graduate (2026) with hands-",
+    "modified": "2026-09-15T12:49:25.275172"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Enzo_AIEngineerIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Enzo_AIEngineerIntern_Resume.pdf",
+    "chunk_index": 1,
+    "snippet": "-fallback handling, and Python-based data pipelines for cleaning and validating raw data. Comfortable choosing the right model for the task and evaluating output quality systematically. Skills  Agentic AI & LLM Engineering: LLM API integration (Groq/LLaMA), prompt design for classification/extracti",
+    "modified": "2026-09-15T12:49:25.275172"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Enzo_AIEngineerIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Enzo_AIEngineerIntern_Resume.pdf",
+    "chunk_index": 2,
+    "snippet": "JavaScript (ES6+), C++  Cloud & Infrastructure: AWS Lambda, CockroachDB (distributed SQL), MongoDB, SQL  Testing & Evaluation: Structured evaluation frameworks (Pytest), CI pipelines, error and edge-case analysis Project Experience RecallDesk – AI Support Agent with Retrieval Memory 2026 Cockroach",
+    "modified": "2026-09-15T12:49:25.275172"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Enzo_AIEngineerIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Enzo_AIEngineerIntern_Resume.pdf",
+    "chunk_index": 3,
+    "snippet": " the ccloud CLI.  Shipped a working, demo-ready product under deadline pressure, competing against 3,700+ participants in the Cock- roachDB x AWS Hackathon. AI Support & Lead Automation Agent 2025 n8n, Node.js, Express.js, Groq/LLaMA, MongoDB Atlas, React.js | Link: GitHub | Live Demo  Built an ag",
+    "modified": "2026-09-15T12:49:25.275172"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Enzo_AIEngineerIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Enzo_AIEngineerIntern_Resume.pdf",
+    "chunk_index": 4,
+    "snippet": "ok the system to production and resolved a real networking failure. Sales Data ETL Pipeline 2025 Python, SQL | Link: GitHub  Automated data collection and processing, transforming raw records into a clean, structured format for downstream use.  Built validation checks against source records to cat",
+    "modified": "2026-09-15T12:49:25.275172"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Enzo_AIEngineerIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Enzo_AIEngineerIntern_Resume.pdf",
+    "chunk_index": 5,
+    "snippet": "hak GIMSS School, Chandigarh, India | Percentage: 92.4% Achievements & Additional  Hackathon: CockroachDB x AWS Agentic Memory Hackathon – submitted a judged product against 3,700+ partici- pants.  Analytical Rigor: Solved 250+ Data Structures & Algorithms problems across LeetCode (˜190) and Geeks",
+    "modified": "2026-09-15T12:49:25.275172"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_GraduateEngineerTrainee_Resume.pdf",
+    "file_name": "Sudhir_Mathur_GraduateEngineerTrainee_Resume.pdf",
+    "chunk_index": 0,
+    "snippet": "Sudhir Mathur Chandigarh, India | +91-8146489819 | sudhirmathur012@gmail.com linkedin.com/in/sudhir-mathur-346b3b268 | github.com/Sudhir104 | sudhir-portfolio-two.vercel.app | leetcode.com/u/SudhirMathur108 Professional Summary Computer Science graduate (2026) with hands-on experience designing, bui",
+    "modified": "2026-09-20T05:59:25.392879"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_GraduateEngineerTrainee_Resume.pdf",
+    "file_name": "Sudhir_Mathur_GraduateEngineerTrainee_Resume.pdf",
+    "chunk_index": 1,
+    "snippet": "ngineer can actually follow. Quick to pick up new frameworks and API layers as project needs evolve. Skills -- Backend & API Development: Node.js, Express.js, REST API design, third-party API integration, OOP funda- mentals -- Databases: SQL (queries, joins, aggregations), MongoDB (NoSQL) -- Testing",
+    "modified": "2026-09-20T05:59:25.392879"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_GraduateEngineerTrainee_Resume.pdf",
+    "file_name": "Sudhir_Mathur_GraduateEngineerTrainee_Resume.pdf",
+    "chunk_index": 2,
+    "snippet": " 2025 n8n, Node.js, Express.js, Groq/LLaMA, MongoDB Atlas, React.js | Link: GitHub | Live Demo -- Designed and built a Node.js/Express REST API implementing core business logic: classifying incoming requests and routing them through an LLM service. -- Built a safe-fallback layer into the API so malf",
+    "modified": "2026-09-20T05:59:25.392879"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_GraduateEngineerTrainee_Resume.pdf",
+    "file_name": "Sudhir_Mathur_GraduateEngineerTrainee_Resume.pdf",
+    "chunk_index": 3,
+    "snippet": "ub -- Performed unit and module-level testing across 5 API endpoints, covering 20+ positive, negative, and edge-case scenarios to identify and resolve errors before release. -- Documented expected versus actual results for every test case to support code and design reviews. -- Wired the suite into G",
+    "modified": "2026-09-20T05:59:25.392879"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_GraduateEngineerTrainee_Resume.pdf",
+    "file_name": "Sudhir_Mathur_GraduateEngineerTrainee_Resume.pdf",
+    "chunk_index": 4,
+    "snippet": "aintenance. Education Bachelor of Engineering in Computer Science & Engineering Aug 2022 - May 2026 Chandigarh University, Chandigarh, India | CGPA: 7.0/10.0 Senior Secondary (HBSE) May 2020 - March 2021 Saarthak GIMSS School, Chandigarh, India | Percentage: 92.4% Achievements -- Analytical Rigor: 2",
+    "modified": "2026-09-20T05:59:25.392879"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_GraduateEngineerTrainee_Resume.pdf",
+    "file_name": "Sudhir_Mathur_GraduateEngineerTrainee_Resume.pdf",
+    "chunk_index": 5,
+    "snippet": " and Archi- tecture (Elite), NPTEL (Oct 2023).",
+    "modified": "2026-09-20T05:59:25.392879"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_ixigo_FullStackIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_ixigo_FullStackIntern_Resume.pdf",
+    "chunk_index": 0,
+    "snippet": "Sudhir Mathur Chandigarh, India | +91-8146489819 | sudhirmathur012@gmail.com linkedin.com/in/sudhir-mathur-346b3b268 | github.com/Sudhir104 | sudhir-portfolio-two.vercel.app | leetcode.com/u/SudhirMathur108 Professional Summary Full-Stack Intern – Recent Computer Science graduate (2026) with hands-o",
+    "modified": "2026-09-14T08:18:52.613391"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_ixigo_FullStackIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_ixigo_FullStackIntern_Resume.pdf",
+    "chunk_index": 1,
+    "snippet": " database layer. Comfortable across Python and Node.js backends, REST APIs, and CI/CD pipelines. A fast learner with a strong ownership mindset, eager to go deeper into Voice AI and queueing/scheduling infrastructure. Skills  Programming Languages: Python, JavaScript (ES6+), C++  AI & LLM Engineer",
+    "modified": "2026-09-14T08:18:52.613391"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_ixigo_FullStackIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_ixigo_FullStackIntern_Resume.pdf",
+    "chunk_index": 2,
+    "snippet": "b, Postman Project Experience AI Support & Lead Automation Agent 2025 n8n, Node.js, Express.js, Groq/LLaMA, MongoDB Atlas, React.js | Link: GitHub | Live Demo  Built a webhook-driven automation pipeline that routes incoming queries through conditional logic, with a safe fallback so malformed AI out",
+    "modified": "2026-09-14T08:18:52.613391"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_ixigo_FullStackIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_ixigo_FullStackIntern_Resume.pdf",
+    "chunk_index": 3,
+    "snippet": "chDB x AWS Hackathon) 2026 CockroachDB (vector index), A WS Lambda, Node.js, Groq LLM | Link: GitHub | Live Demo  Extended a production AI agent with long-term memory by integrating CockroachDB’s vector index, deploying the compute layer on AWS Lambda.  Independently set up and managed a cloud dat",
+    "modified": "2026-09-14T08:18:52.613391"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_ixigo_FullStackIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_ixigo_FullStackIntern_Resume.pdf",
+    "chunk_index": 4,
+    "snippet": " across 5 API endpoints to systematically surface failures.  Wired the framework into a GitHub Actions CI/CD pipeline, running on every push and on a daily schedule with an automated report.  Built reusable, parametrized test fixtures to standardize testing and reduce duplication. Education Bachel",
+    "modified": "2026-09-14T08:18:52.613391"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_ixigo_FullStackIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_ixigo_FullStackIntern_Resume.pdf",
+    "chunk_index": 5,
+    "snippet": "re Development Challenge, Aug 2024 Achievements & Leadership  Analytical Rigor: Solved 250+ Data Structures & Algorithms problems across LeetCode (˜190) and GeeksforGeeks (˜67).  Unstop Campus Ambassador (2023-24): Organized university-level events and coordinated with participants, boosting engag",
+    "modified": "2026-09-14T08:18:52.613391"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_MHTECHIN_SoftwareEngineerI_Resume.pdf",
+    "file_name": "Sudhir_Mathur_MHTECHIN_SoftwareEngineerI_Resume.pdf",
+    "chunk_index": 0,
+    "snippet": "Sudhir Mathur Chandigarh, India | +91-8146489819 | sudhirmathur012@gmail.com linkedin.com/in/sudhir-mathur-346b3b268 | github.com/Sudhir104 | sudhir-portfolio-two.vercel.app | leetcode.com/u/SudhirMathur108 Professional Summary Software Engineer I – Recent Computer Science graduate (2026) with hands",
+    "modified": "2026-09-14T08:23:43.121843"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_MHTECHIN_SoftwareEngineerI_Resume.pdf",
+    "file_name": "Sudhir_Mathur_MHTECHIN_SoftwareEngineerI_Resume.pdf",
+    "chunk_index": 1,
+    "snippet": " existing code, and working across SQL and NoSQL databases. A fast learner who takes feedback well and enjoys collaborating in team environments. Skills  Programming Languages: JavaScript (ES6+), Python, C++  Frontend: React.js, HTML5, CSS3  Backend & APIs: Node.js, Express.js, RESTful APIs, JWT-",
+    "modified": "2026-09-14T08:23:43.121843"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_MHTECHIN_SoftwareEngineerI_Resume.pdf",
+    "file_name": "Sudhir_Mathur_MHTECHIN_SoftwareEngineerI_Resume.pdf",
+    "chunk_index": 2,
+    "snippet": "s, React.js | Link: GitHub | Live Demo  Built a Node.js/Express REST API integrating an LLM to classify incoming queries and auto-draft replies, with a safe fallback so malformed AI output never breaks the pipeline.  Built a live React dashboard consuming the API in real time, taking the system fr",
+    "modified": "2026-09-14T08:23:43.121843"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_MHTECHIN_SoftwareEngineerI_Resume.pdf",
+    "file_name": "Sudhir_Mathur_MHTECHIN_SoftwareEngineerI_Resume.pdf",
+    "chunk_index": 3,
+    "snippet": "200ms latency.  Implemented JWT-based authentication and bcrypt password hashing to secure user sessions and credentials.  Deployed frontend on Vercel and backend on Render, testing functionality across desktop and mobile before release. REST API Test Automation Framework 2026 Python, Pytest, GitH",
+    "modified": "2026-09-14T08:23:43.121843"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_MHTECHIN_SoftwareEngineerI_Resume.pdf",
+    "file_name": "Sudhir_Mathur_MHTECHIN_SoftwareEngineerI_Resume.pdf",
+    "chunk_index": 4,
+    "snippet": "ducation Bachelor of Engineering in Computer Science & Engineering Aug 2022 – May 2026 Chandigarh University, Chandigarh, India | CGPA: 7.0/10.0 Senior Secondary (HBSE) May 2020 – March 2021 Saarthak GIMSS School, Chandigarh, India | Percentage: 92.4% Training & Certifications  Web Application Deve",
+    "modified": "2026-09-14T08:23:43.121843"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_MHTECHIN_SoftwareEngineerI_Resume.pdf",
+    "file_name": "Sudhir_Mathur_MHTECHIN_SoftwareEngineerI_Resume.pdf",
+    "chunk_index": 5,
+    "snippet": "-level events and coordinated with participants, boosting engagement by 40%.  NCC Cadet (2018-19): Completed National Cadet Corps training – developed discipline and reliability.",
+    "modified": "2026-09-14T08:23:43.121843"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Twilio_SWEIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Twilio_SWEIntern_Resume.pdf",
+    "chunk_index": 0,
+    "snippet": "Sudhir Mathur Chandigarh, India | +91-8146489819 | sudhirmathur012@gmail.com linkedin.com/in/sudhir-mathur-346b3b268 | github.com/Sudhir104 | sudhir-portfolio-two.vercel.app | leetcode.com/u/SudhirMathur108 Professional Summary Computer Science graduate (2026) who ships real, working software, not t",
+    "modified": "2026-09-21T07:28:00.975585"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Twilio_SWEIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Twilio_SWEIntern_Resume.pdf",
+    "chunk_index": 1,
+    "snippet": "ns fast, takes ownership of what I build, and enjoys the kind of hard, resiliency-and-quality problems that come with real systems. Skills -- Programming Languages: Python, JavaScript (ES6+), C++, Java (basics) -- Software Development & Deployment: Full-stack development (React, Node.js/Express), RE",
+    "modified": "2026-09-21T07:28:00.975585"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Twilio_SWEIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Twilio_SWEIntern_Resume.pdf",
+    "chunk_index": 2,
+    "snippet": " 250+ Data Structures & Algorithms problems solved, systematic debugging, root-cause analysis Project Experience AI Support & Lead Automation Agent 2025 n8n, Node.js, Express.js, Groq/LLaMA, MongoDB Atlas, React.js | Link: GitHub | Live Demo -- Designed and shipped a full-stack automation feature en",
+    "modified": "2026-09-21T07:28:00.975585"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Twilio_SWEIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Twilio_SWEIntern_Resume.pdf",
+    "chunk_index": 3,
+    "snippet": " AWS Hackathon) 2026 CockroachDB (vector index), A WS Lambda, Node.js, Groq LLM | Link: GitHub | Live Demo -- Shipped a working, demo-ready product under real deadline pressure, competing against 3,700+ participants in a global hackathon. -- Extended a production AI agent with a distributed vector d",
+    "modified": "2026-09-21T07:28:00.975585"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Twilio_SWEIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Twilio_SWEIntern_Resume.pdf",
+    "chunk_index": 4,
+    "snippet": ". -- Documented expected versus actual results for every case, supporting code review and issue tracking. -- Wired the suite into GitHub Actions CI so regressions get caught automatically on every change. Education Bachelor of Engineering in Computer Science & Engineering Aug 2022 - May 2026 Chandig",
+    "modified": "2026-09-21T07:28:00.975585"
+  },
+  {
+    "file": "C:\\Users\\DELL\\Desktop\\ethra ai\\Sudhir_Mathur_Twilio_SWEIntern_Resume.pdf",
+    "file_name": "Sudhir_Mathur_Twilio_SWEIntern_Resume.pdf",
+    "chunk_index": 5,
+    "snippet": "lems solved across LeetCode (approx. 190) and Geeks- forGeeks (approx. 67). -- Certifications: Flipkart GRiD 6.0 Software Development Challenge (Aug 2024); Computer Organization and Archi- tecture (Elite), NPTEL (Oct 2023).",
+    "modified": "2026-09-21T07:28:00.975585"
+  }
+]
